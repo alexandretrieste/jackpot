@@ -1,0 +1,82 @@
+#background {
+    background-image: url("./images/bg.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    user-select: none;
+}
+
+.title {
+    position: absolute;
+    width: 387px;
+    height: 30px;
+    left: 206px;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#titleTop {
+    top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#titleBottom {
+    top: 440px;
+    text-align: center;
+}
+
+#slotMachine {
+    background-image: url("./images/frame.png");
+    position: absolute;
+    width: 450px;
+    height: 265px;
+    top: 165px;
+    left: 177px;
+}
+
+.columnSlotMachine {
+    background-image: url("./images/symbols/css_sprites.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 124px;
+    height: 215px;
+    top: 25px;
+    overflow: hidden;
+}
+
+#column1 {
+    left: 28px;
+    background-position: -14px 0;
+}
+
+#column2 {
+    left: 163px;
+    background-position: -14px 0;
+}
+
+#column3 {
+    left: 299px;
+    background-position: -14px 0;
+}
+
+#startButton {
+    background-image: url("./images/buttons/play_button_0.png");
+    position: absolute;
+    width: 103px;
+    height: 76px;
+    top: 479px;
+    left: 350px;
+    cursor: pointer;
+}
+
+#startButton span {
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    line-height: 76px;
+    font-weight: bold;
+    font-size: 20px;
+}
